@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "ExpenseTrackerApp",
+    "name": "My Recipe Book",
     "slug": "ExpenseTrackerApp",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -11,20 +11,26 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
+      "buildNumber": "1.0.0",
       "supportsTablet": true
     },
     "android": {
+      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.hmt.myrecipebook"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d3697be9-ef0f-4384-b81c-19513d97e8ea"
+      }
     }
   }
 }
